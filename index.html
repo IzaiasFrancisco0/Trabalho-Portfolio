@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+        <nav class="menu_bar">
+            <ul>
+                <li><a onclick="mostrarSecao('sobre-min')">Sobre min</a></li>
+                <li><a onclick="mostrarSecao('formacao')">Formação</a></li>
+                <li><a onclick="mostrarSecao('portfolio')">Portfólio</a></li>
+                <li><a onclick="mostrarSecao('contato')">Contato</a></li>
+            </ul>
+        </nav>
+
+        <section id="sobre-min">
+         <h1>Sobre min</h1>
+         <div class="autdor">
+            <div class="texto">
+            <p>Sou o Izaias, tenho 22 anos e atualmente estou me aprofundando em desenvolvimento web,<br> já tenho familiaridade em tecnologias como html, css, javascript,<br> e typescript, no momento estou estudando react!!</p>
+            </div>
+            <div class="image">
+             <img src="./img/WhatsApp Image 2024-06-13 at 15.08.18.jpeg" alt="foto" />
+            </div>
+         </div>
+         <div class="assinatura">
+            <p>@Copyright </span> Izaias. Todos os direitos reservados.</p>
+         </div>
+        </section>
+
+        <section id="formacao">
+            <div class="container"> 
+            <h2>Cursando Análise e Desenvolvimento de Sistemas</h2>
+            <p>
+                No momento estou fazendo o curso tecnologo, de Análise e Desenvolvimento de Sistemas na Uninter. Estou gostando bastante da experiência, até o momento já desenvolvi habilidades em lógica de programação, desenvolvimento web e banco de dados.
+            </p>
+        
+            <h2>Disciplinas Relevantes</h2>
+            <ul>
+                <li>Programação Orientada a Objetos</li>
+                <li>Lógica de programação e algoritimos</li>
+                <li>Desenvolvimento Web usando HTML, CSS, JavaScript.</li>
+                <li>Banco de Dados mySQL</li>
+                <li>Fundamentos de sistemas</li>
+            </ul>
+        
+            <h2>Projetos academicos</h2>
+            <p>
+                Fiz alguns trabalhos práticos que me deram bastante conhecimento, usando algumas linguagens de programação.
+            </p>
+            <ul>
+                <li>
+                    <strong>Trabalho Gestão de Biblioteca</strong>: fiz um sistema básico de biblioteca ultilizando phyton.
+                </li>
+                <li>
+                    <strong>Trabalho Cofrinho</strong>: fiz um cofrinho ultizando java.
+                </li>
+                <li>
+                    <strong>trabalho site web</strong>: fiz esse site usando tecnologias web, como html, css e javascript.
+                </li>
+            </ul>
+         <h2>Oque pretendo fazer</h2>
+           <p>No momento estou em busca de um estágio em desenvolvimento web, estou focando na parte do front-end. já tenho familiaridade em algumas tecnologias web, no futuro espero ser um desenvolvedor full-stack.</p>
+        </div>
+        </section>
+
+        <section id="portfolio">
+        <h1>portfolio</h1>
+        <div class="projetos-container">
+            
+            <div class="card">
+                <img src="./img/login.png" alt="Imagem do Projeto 1">
+                <h3>Página Login</h3>
+                <p>Formulário com email e senha, ao preencher e enviar, ele armazenara no LocalStorage</p>
+                <button>Ver Projeto</button>
+            </div>
+    
+            <div class="card">
+                <img src="./img/imc.png" alt="Imagem do Projeto 2">
+                <h3>Calculadora IMC</h3>
+                <p>Contendo 2 campos pra digitar o peso e altura, ao digitar você podera clicar no botão enviar, vai da o resultado se está abaixo, na média ou acima do peso</p>
+                <button>Ver Projeto</button>
+            </div>
+    
+            <div class="card">
+                <img src="./img/carrosel.png" alt="Imagem do Projeto 3">
+                <h3>Carrosel</h3>
+                <p>Contendo algumas imagens da natureza, ao arrastar o scroll ele passara por cada imagem, voce também pode arrasta-lo pro lado</p>
+                <button>Ver Projeto</button>
+            </div>
+    
+            <div class="card">
+                <img src="./img/relogio.png" alt="Imagem do Projeto 4">
+                <h3>Relógio Digital</h3>
+                <p>Pagina onde o usuário pode ver as horas, minutos e segundos. também pode escolher duas opções de linguagem inglês ou português</p>
+                <button>Ver Projeto</button>
+            </div>
+    
+            <div class="card">
+                <img src="" alt="Imagem do Projeto 5">
+                <h3>Projeto 5</h3>
+                <p>Em construção..</p>
+                <button>Ver Projeto</button>
+            </div>
+    
+            <div class="card">
+                <img src="" alt="Imagem do Projeto 6">
+                <h3>Projeto 6</h3>
+                <p>Em construção..</p>
+                <button>Ver Projeto</button>
+            </div>
+        </div>
+        </section>
+
+        <section id="contato">
+            <div class="form-container">
+                <h2>Formulário de Contato</h2>
+                <form>
+   
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" required>
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    </div>
+            
+                    <button id="enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+:root{
+    --cor-primaria: #2b2a2a;
+    --cor-secundaria: #e4e4e3;
+    --cor-terceira: #4611da;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu_bar{
+    height: 3rem;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_bar ul{
+    width: 20%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.menu_bar ul li:hover{
+    color: #4611da;
+    cursor: pointer;
+}
+section {
+    display: none; 
+    padding: 60px 20px; 
+    height: 95vh;
+}
+section.active {
+    display: block; 
+}
+#sobre-min {
+    background-color: #2b2a2a;
+    border-top: 2px solid var(--cor-terceira); 
+}
+#formacao {
+    background-color: #2b2a2a;
+}
+#portfolio {
+    background-color: #2b2a2a;
+    height: 110vh;
+}
+#contato {
+    background-color: #2b2a2a;
+}
+#sobre-min h1{
+  text-align: center;
+  padding-bottom: 10rem;
+  color: var(--cor-secundaria);
+}
+.autdor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto{
+    font-size: 28px;
+    font-family: monospace;
+    width: 500px;
+    text-align: center;
+    height: 450px;
+    color: var(--cor-secundaria);
+   margin-right: 200px;
+   background-color: #252525;
+   padding: 30px;
+   border-radius: 10px;
+}
+.image img{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    border: 2px solid var(--cor-terceira);
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 18px;
+}
+.assinatura{
+    margin-top: 200px;
+    text-align: center;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.container h2 {
+    color: var(--cor-terceira);
+    margin-top: 20px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 10px 0 20px 20px;
+}
+
+.highlight {
+    background-color: #ffeb3b;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.projetos-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.projetos-section h2 {
+    text-align: center;
+    color: var(--cor-terceira);
+    margin-bottom: 30px;
+}
+.projetos-container {
+    margin-left: 20%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+}
+#portfolio h1{
+    color: var(--cor-secundaria);
+padding-bottom: 40px;
+
+}
+.card {
+    background-color: var(--cor-secundaria);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s; 
+}
+.card:hover {
+    transform: translateY(-10px); 
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.card h3 {
+    color: var(--cor-terceira);
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.95em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.card button {
+    background-color: var(--cor-terceira);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.card button:hover {
+    background-color: #555;
+}
+.form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: var(--cor-secundaria);
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--cor-terceira);
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #333;
+}
+textarea {
+    resize: vertical; 
+    height: 100px;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--cor-terceira);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2c2c2c;
+}
